@@ -79,20 +79,20 @@ hr {
 }
 
 .consultation {
-  width: Hug (404px) px;
-  height: Hug (71px) px;
-  top: 683px;
-  left: 119px;
+  width: 300px;
+  height: 70px;
+  position: relative;
   padding: 20px 42px 20px 42px;
-  gap: 10px;
   border-radius: 10px;
-  opacity: 0px;
   border: none;
   background: #fcfcfc;
+  font-family: serif;
+  font-size: 1.2em;
 }
 
 .about_us {
   background-color: #ffffff;
+  padding-bottom: 80px;
 }
 
 .about_us-header{
@@ -100,7 +100,7 @@ hr {
     justify-content: space-around;
 }
 .about_us-title {
-  padding-top: 108px;
+  padding-top: 60px;
   padding-right: 310px;
   margin: 0;
   font-size: 50px;
@@ -112,24 +112,119 @@ hr {
 font-size: 31px;
 color: #DF803E;
 padding-right: 200px;
-padding-top: 100px;
+padding-top:60px;
+
 }
 .card_blok{
-    padding-top: 100px;
+    padding-top:40px;
     margin-left: 150px;
     margin-right: 150px;
     display:flex;
-    justify-content:space-between
-   
+    justify-content:space-between;
+  
     
 }
 .card{
     border: #000000 3px solid;
     border-radius: 20px;
-    width:350px;
-    height: 350px;
+    width:300px;
+    height: 300px;
     text-align: center;
     padding-top: 20px;
-  
+
+}
+
+.card a{text-decoration: none;
+  color: inherit;
+
+}
+
+.lessons {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.lessons_tex {
+  font-size: 1.5em;
+  color: #ffffff;
+  position: relative;
+  left: 150px;
+  top: 130px;
+}
+.icons_title {
+  font-size: 30px;
+  line: height 1.2em;
+  position: relative;
+  left: 80px;
+}
+.icons_list {
+  display: flex;
+  justify-content: space-around;
+}
+.list-bord {
+  width: 500px;
  
+}
+
+.list-offer{
+text-decoration: none;
+
+}
+.list-offer li{
+display: flex;
+height: 50px;
+
+}
+
+.list-offer li p{
+font-size: 20px;
+padding-left: 30px;
+/* line-height: 50px; */
+/* margin: 0; */
+}
+
+.wraper_li{
+position: relative;
+bottom: 20px;
+
+}
+
+
+.list-offer a{
+color: inherit;
+text-decoration: none;
+
+}
+
+.giraffe-left img{
+  width:300px;
+  height:450px;
+  position: relative;
+  top: 170px;
+  left: 30px;
+
+}
+
+.giraffe-right  img{
+  width:300px;
+  height:450px;
+  position: relative;
+  top: 170px;
+  right: 30px;
+
+}
+
+hr{
+  background-color: #000000;
+height: 3px;
+
+}
+.application{
+  border: #000000 solid 2px;
+  background-color: #DF803E;
+  left: 120px;
+}
+.application:hover{
+  background-color: #fcfcfc;
+  border: none;
 }
